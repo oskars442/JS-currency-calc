@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(163, 163, 196);
+}
+
+.conteiner {
+    background-color: rgb(139, 120, 156);
+    height: 200vh;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(99, 97, 94);
+    margin-bottom: 2rem;
+}
+
+.currency-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.currency-input p {
+    margin: 0 auto;
+}
+
+#euro,
+#dollar,
+#rubli,
+#jeny {
+    margin: 0 auto;
+    margin-top: 40px;
+    border: none;
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 430px;
+    box-shadow: 0px 1px 5px rgb(97, 97, 97);
+}
+
+ul  {
+    list-style: none;
+    word-spacing: 10px;
+}
+
+ul p {
+    font-size: 25px;
+}
+
+.flag {
+    max-width: 100px;
+    height: 60px;
+    padding: 0.50rem;
+}
+ p {
+    display: inline-block;
+
+}
+span{
+    margin-right: 10px;
+}
+#euro{
+   margin-left: 18px;
+}
